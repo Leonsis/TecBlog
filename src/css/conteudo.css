@@ -1,0 +1,75 @@
+section#conteudo {
+    border: 0;
+}
+
+section#conteudo div.postagens div.postagem,
+section#conteudo div.menuLateral_recentes div.postagens_recentes{
+    background: var(--cor-branco);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+section#conteudo div.postagens div.postagem h3{
+    font-weight: bold;
+    margin-bottom: 0;
+    color: var(--cor-primaria);
+}
+
+section#conteudo div.postagens div.postagem p.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid var(--cor-cinza);
+    margin-bottom: 5px;
+}
+
+section#conteudo div.postagens div.postagem img{
+    margin-bottom: 10px;
+}
+
+section#conteudo div.postagens div.postagem p{
+    text-align: left;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes h3{
+    background: var(--cor-secundaria);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--cor-cinza);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.testo{
+    border-bottom: 1px solid var(--cor-cinza);
+    padding: 10px;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.fim{
+    border-bottom: 0px;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.testo a{
+    color: var(--cor-primaria);
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.menu{
+    text-align: center;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.menu li{
+    margin: 2px;
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.menu li a{
+    color: var(--cor-primaria);
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.menu li a:hover{
+    color: var(--cor-branco);
+}
+
+section#conteudo div.menuLateral_recentes div.postagens_recentes div.menu li:hover{
+    background: var(--cor-primaria);
+    margin: 2px;
+}

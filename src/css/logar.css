@@ -1,0 +1,22 @@
+section#logar div.login h1{
+    font-weight: bold;
+    color: var(--cor-primaria);
+    font-size: 3em;
+}
+
+section#logar div.login h1 span{
+    color: var(--cor-cinza);
+}
+
+section#logar div.login form input{
+    border: 1px solid var(--cor-primaria);
+}
+
+section#logar div.login form input.botao{
+    color: var(--cor-cinza);
+    background: var(--cor-primaria);
+}
+
+section#logar div.login form input.botao:hover{
+    color: var(--cor-secundaria);
+}

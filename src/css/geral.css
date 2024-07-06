@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    background: rgb(230, 230, 230);
+}
+
+section{
+    border-bottom: 1px solid var(--cor-primaria);
+    padding: 10px;
+    margin: 10px;
+}
